@@ -1,0 +1,240 @@
+@media screen and (max-width:480px) {
+    
+    body {
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+/* top header */
+    #top-header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    
+    .myaccount-item li{
+        display: flex;
+        text-align: left;
+        width: 50%;
+    }
+
+    .myaccount-item a {
+        padding: 0px;
+        margin: 0%;
+        line-height: 20px;
+    }
+
+    .currency-item li {
+        display: block;
+        justify-content: right;
+        margin-left: -60%;
+
+    }
+
+    .currency-item a{
+        padding: 5px;
+        margin: 0%;
+        line-height: 30px;
+    }
+
+
+/* logo header */
+
+    #logo-header{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: auto;
+        display: flex;
+    }
+
+    .cart button {
+        padding: 5px 20px;
+        font-size: 14px;
+        margin-left: -30%;
+    }
+
+    .cart span {
+        font-size: 14px;
+    }
+
+        
+    .cart button:hover{
+        color: white;
+        background-color: #5a88ca;
+    }
+
+    .cart span:hover {
+        color: white;
+    }
+
+
+/* bottom header */
+
+        
+    #bottom-header {
+        width: 100%;
+        height: auto;
+        padding: 0%;
+        text-align: center;
+        margin: 0%;
+        margin-left: -5%;
+    }
+
+
+    .bottom-header-item a {
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+        color: #757474;
+        padding: 5px;
+        margin-left: 0%;
+    }
+
+/* slider */
+
+    #slider {
+        width: 100%;
+        margin: 0%;
+        margin-top: 10%;
+        padding: 0%;
+    }
+
+    #slider img {
+        width: 100%;
+    }
+
+
+/* four btn */
+    #four-btn {
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #four-btn img {
+        width: 50%;
+        padding: 5px;
+    }
+
+
+/* latest product */
+
+    
+    #latest-product {
+        width: 80%;
+        height: auto;
+        margin-top: 5%;
+        align-items: center;
+    }  
+
+    #latest-product h1 {
+        font-size: 20px;
+        text-align: center; 
+    }
+
+    #latest-product img {
+        border: 1px solid lightgray;
+        height: 200px;
+        padding: 3px;
+        margin-left: 3%;
+    }
+
+/* company */
+
+    #company {
+        width: 100%;
+        align-items: center;
+    }
+    #company img {
+        padding: 2px 5px;
+    }
+
+    
+/* footer */
+
+    #footer {
+        width: 100%;
+        height: auto;
+        background-color: #333333;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer h2 {
+        font-size: 22px;
+    }
+
+    #footer p{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .ustora {
+        width: 80%;
+        margin: 0%;
+        padding: 10px 20px;
+    }
+
+    #facebook {
+        margin-top: 5%;
+        font-size: 16px !important;
+        padding: 10px;
+    }
+
+    .usernavigation {
+        width: 80%;
+        margin: 0%;
+        padding: 10px 20px;
+    }
+
+    .categories {
+        width: 80%;
+        margin: 0%;
+        padding: 10px 20px;
+    }
+
+    .newsletter  {
+        width: 80%;
+        margin: 0%;
+        padding: 10px 20px;
+    }
+
+        
+    .newsletter input {
+        width: 80%;
+        padding: 5px;
+        margin-top: 2%;
+    }
+
+    .newsletter button {
+        margin-top: 2%;
+        padding: 5px 15px;
+        color: white;
+        background-color: #5a88ca;
+        border: none;
+        font-size: 16px;
+    }
+
+/* footer bottom */
+
+    #footer-bottom h4 {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .payment-card {
+        width: 30%;
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+}
